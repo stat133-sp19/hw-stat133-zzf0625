@@ -1,12 +1,12 @@
-#THE SHOOTING STATISTICS OF THE FIVE GSW PLAYERS
+# THE SHOOTING STATISTICS OF THE FIVE GSW PLAYERS
 
-##Iguodala, Green, Durant, Thompson, and Curry
+## Iguodala, Green, Durant, Thompson, and Curry
 *by Zhenzhen Fu*  
 
 ***
 ![](https://clutchpoints.com/wp-content/uploads/2017/01/Stephen-Curry-Draymond-Green-Kevin-Durant-Klay-Thompson-Andre-Iguodala-warriors.jpg)  
 
-##Background
+## Background
 The Golden State Warriors, now in the fold have become a nearly unstoppable offensive juggernaut, and that has been shown through their unblemished run through the Western Conference holding a 12-0 record heading into the 2017 NBA Finals. According to Marc Stein of ESPN, the team holds an incredible mark this season when they play this group together on the court. For the Warriors to hold an undefeated record with their stars playing together speaks to their ability to quickly adapt and play cohesively with each other.  
 
 *** 
@@ -16,13 +16,13 @@ For the workout01, we are introduced to a huge amount of data, concerning the re
 
 ***  
 
-##Data
+## Data
 
 After learning the basic ideas of the Github repository, we derived this workout from the Stat 133 Homework Github repository along with our own local repo. All the original data came as CSV files, which needed to be imported into specific directory. Specifically, every player had his own data file, which included raw data for the team, date, season, period, type of shot, the opposing team, and so on. In particular, we cared about the summaries of each player for their shots. In this case, we re-arrange the data set in order to get a summary table personally. And then, we derived them into the single text files, which could be found in the output/ folder of the project files. Trying to modify all the data clearly, we mutate two new columns: column of name, which would be much more useful for visualizing, column of minute that specified the minute in which the shot was taken. At last,we tried to combine all the data frames together to deeply analyze the Golden State Warriors. Below, some significane summary tables are shown.  
 
 ***
 
-##Analysis
+## Analysis
 
 __2PT Effective Shooting % by Player__
 ```
@@ -86,7 +86,7 @@ Taking both two-point and three-point into account, the table showed us that Kev
 
 ***
 
-##Discussion
+## Discussion
 
 In the above tables, we can easily get some useful statistics about the five players of Golden State Warriors. To dig it more, we now looking at the facet scatterplot of those five players.
 
@@ -96,7 +96,7 @@ For this big chart, dots represent shots taken, and it becomes orange if the sho
 
 ***
 
-##Conclusions
+## Conclusions
 
 According to the above brefly analysis, I believe that the Warriors as a team, and a couple players in particular, have found a way to be efficient enough or even excellent from mid-range. As a result, opponents must plan to defend that area on the court. This hampers the defense’s ability to defend the hoop and 3-point line. Granted, when Golden State is at full strength, it doesn't always need Durant to dominate. But if he wasn't consistently capable of carrying the load, the Warriors wouldn't still be rolling without their fallen stars. Let us expect a more competitived game next time.
 
@@ -105,7 +105,7 @@ According to the above brefly analysis, I believe that the Warriors as a team, a
 
 ***
 
-##References
+## References
 
 <https://clutchpoints.com/warriors-undefeated-since-feb-28-curry-klay-draymond-durant/>
 
