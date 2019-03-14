@@ -1,4 +1,4 @@
-#Workout01
+# Workout01
 The following are the three main purposes for the HW1 
 - First of all, this assignment will give you the opportunity to start working with a more complex file structure, 
 and uploading files to GitHub. 
