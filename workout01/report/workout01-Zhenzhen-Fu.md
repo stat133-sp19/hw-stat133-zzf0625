@@ -1,4 +1,5 @@
 #THE SHOOTING STATISTICS OF THE FIVE GSW PLAYERS
+
 ##Iguodala, Green, Durant, Thompson, and Curry
 *by Zhenzhen Fu*  
 
@@ -16,6 +17,7 @@ For the workout01, we are introduced to a huge amount of data, concerning the re
 ***  
 
 ##Data
+
 After learning the basic ideas of the Github repository, we derived this workout from the Stat 133 Homework Github repository along with our own local repo. All the original data came as CSV files, which needed to be imported into specific directory. Specifically, every player had his own data file, which included raw data for the team, date, season, period, type of shot, the opposing team, and so on. In particular, we cared about the summaries of each player for their shots. In this case, we re-arrange the data set in order to get a summary table personally. And then, we derived them into the single text files, which could be found in the output/ folder of the project files. Trying to modify all the data clearly, we mutate two new columns: column of name, which would be much more useful for visualizing, column of minute that specified the minute in which the shot was taken. At last,we tried to combine all the data frames together to deeply analyze the Golden State Warriors. Below, some significane summary tables are shown.  
 
 ***
@@ -85,6 +87,7 @@ Taking both two-point and three-point into account, the table showed us that Kev
 ***
 
 ##Discussion
+
 In the above tables, we can easily get some useful statistics about the five players of Golden State Warriors. To dig it more, we now looking at the facet scatterplot of those five players.
 
 ![](../images/gsw-shot-charts.png)
@@ -94,6 +97,7 @@ For this big chart, dots represent shots taken, and it becomes orange if the sho
 ***
 
 ##Conclusions
+
 According to the above brefly analysis, I believe that the Warriors as a team, and a couple players in particular, have found a way to be efficient enough or even excellent from mid-range. As a result, opponents must plan to defend that area on the court. This hampers the defense’s ability to defend the hoop and 3-point line. Granted, when Golden State is at full strength, it doesn't always need Durant to dominate. But if he wasn't consistently capable of carrying the load, the Warriors wouldn't still be rolling without their fallen stars. Let us expect a more competitived game next time.
 
 
@@ -102,6 +106,7 @@ According to the above brefly analysis, I believe that the Warriors as a team, a
 ***
 
 ##References
+
 <https://clutchpoints.com/warriors-undefeated-since-feb-28-curry-klay-draymond-durant/>
 
 <https://shottracker.com/articles/are-the-warriors-making-the-mid-range-relevant-again>
