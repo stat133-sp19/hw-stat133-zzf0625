@@ -1,0 +1,26 @@
+context("Check checkers")
+
+test_that("check_prob fails with invalid args",{
+
+  expect_true(check_prob(0.3))
+  expect_error(check_prob(2))
+  expect_error(check_prob(-0.3),
+               "\nprob should be a number between 0 and 1")
+})
+
+test_that("check_trials fails with invalid args", {
+
+  expect_true(check_trials(10))
+  expect_error(check_trials(-10))
+  expect_error(check_trials(10.3),
+               "\ntrials should be a non-negative integer")
+})
+
+test_that("check_success fails with invalid args", {
+
+  expect_true(check_success(3, 10))
+  expect_error(check_success(-1, 10),
+               "\nsuccess should be non-negative integer(s)")
+  expect_error(check_success(6, 5),
+               "\nsuccess should be less than or equal to trials")
+})

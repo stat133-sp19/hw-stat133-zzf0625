@@ -1,0 +1,34 @@
+---
+output: github_document
+---
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+## Overview
+`"binomial" is a R package that provides several functions related to binomial distribution.
+* `bin_variable()` creates a binomial object (of class `"binvar"`).
+* `bin_probability()` calculates the probability of given success in given trials.
+* `bin_distribution()` gives you a distribution table for a `"binvar"` object.
+* `bin_cumulative()` gives you a cumulative distribution table for a `"binvar"` object.
+
+## Usage
+```{r}
+library(binomial)
+# creating a binomial random variable 
+bin <- bin_variable(trials = 5, prob = 0.5)
+bin
+# creating a binomial probability distribution
+dis1 <- bin_distribution(trials = 5, prob = 0.5)
+dis1
+# creating a binomial cumulative distribution
+dis2 <- bin_cumulative(trials = 5, prob = 0.5)
+dis2
+# summarizing the binomial variable with main statistical elements:
+binsum <- summary(bin)
+binsum
+```

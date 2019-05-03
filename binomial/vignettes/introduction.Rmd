@@ -1,0 +1,51 @@
+---
+title: "intro to binomial"
+author: "Zhenzhen Fu"
+date: "05/03/2019"
+output: rmarkdown::html_vignette
+
+vignette: >
+  %\VignetteIndexEntry{intro to binomial}
+  %\VignetteEngine{knitr::rmarkdown}
+  \usepackage[utf8]{inputenc}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(binomial)
+```
+
+## Binomial Distribution
+
+The package `"binomial"` is a implementation for computing probabilities of binomial variables, and to visualize the related results such as the probability distribution graphs, the mode, and the variance, etc.
+
+
+### Creating the binomial random variable object
+
+Create a variable using the bin_variable() function, which takes arguments of "trials" and "prob". 
+
+```{r}
+bin_var <- bin_variable(10, 0.3)
+bin_var
+```
+
+
+### Including Plots
+
+You can also get some useful plots about binomial distribution by bin_distribution or bin_cumulative function, for example:
+
+```{r}
+dis <- bin_cumulative(trials = 5, prob = 0.5) 
+plot(dis)
+```
+
+
+###Summarizing the binomial random variable object
+
+You can find key summary measures of the binomial object using the summary.binvar() function. In this case, you will get a list of the main measurements about the binomial distribution.
+
+```{r}
+bin <- bin_variable(trials = 10, p = 0.3) 
+binsum <- summary(bin)
+binsum
+```

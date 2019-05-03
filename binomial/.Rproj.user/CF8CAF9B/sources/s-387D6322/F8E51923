@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1556877818842.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "F8E51923",
+    "lastKnownWriteTime" : 1556874306,
+    "last_content_update" : 1556874306,
+    "path" : "~/Desktop/workout3.Rmd",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "298,1",
+        "scrollLine" : "277"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
