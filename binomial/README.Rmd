@@ -10,7 +10,8 @@ knitr::opts_chunk$set(
 )
 ```
 ## Overview
-`"binomial" is a R package that provides several functions related to binomial distribution.
+`"binomial"` is a R package that provides several functions related to binomial distribution.  
+
 * `bin_variable()` creates a binomial object (of class `"binvar"`).
 * `bin_probability()` calculates the probability of given success in given trials.
 * `bin_distribution()` gives you a distribution table for a `"binvar"` object.

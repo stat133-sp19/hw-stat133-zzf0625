@@ -2,7 +2,12 @@
 Overview
 --------
 
-`"binomial" is a R package that provides several functions related to binomial distribution. *`bin\_variable()`creates a binomial object (of class`"binvar"`). *`bin\_probability()`calculates the probability of given success in given trials. *`bin\_distribution()`gives you a distribution table for a`"binvar"`object. *`bin\_cumulative()`gives you a cumulative distribution table for a`"binvar"\` object.
+`"binomial"` is a R package that provides several functions related to binomial distribution.
+
+-   `bin_variable()` creates a binomial object (of class `"binvar"`).
+-   `bin_probability()` calculates the probability of given success in given trials.
+-   `bin_distribution()` gives you a distribution table for a `"binvar"` object.
+-   `bin_cumulative()` gives you a cumulative distribution table for a `"binvar"` object.
 
 Usage
 -----
