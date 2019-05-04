@@ -1,7 +1,7 @@
 # a private auxiliary function check_prob() to test if an input prob is a valid probability value (i.e. 0 ≤ p ≤ 1)
 check_prob <- function(prob) {
   if (!is.numeric(prob)) {
-    stop('invalid prob input(should be a number)')
+    stop('invalid prob input: should be a number')
   }
   if (prob < 0 | prob > 1) {
     stop('p has to be a number betwen 0 and 1')
@@ -12,7 +12,7 @@ check_prob <- function(prob) {
 # a private auxiliary function check_trials() to test if an input trials is a valid value for number of trials (i.e. n is a non-negative integer)
 check_trials <- function(trials) {
   if (!is.numeric(trials)) {
-    stop('invalid trial input(should be a number)')
+    stop('invalid trial input: should be a number')
   }
   if (!trials%%1 == 0) {
     stop('trial should be an integer')
@@ -26,13 +26,13 @@ check_trials <- function(trials) {
 #a private auxiliary function check_success() to test if an input success is a valid value for number of successes (i.e. 0 ≤ k ≤ n).
 check_success <- function(success, trials) {
   if (!is.numeric(success)) {
-    stop('invalid success input(should be a number)')
+    stop('invalid success input: should be a number')
   }
   if (prod(success%%1 == 0) != 1) {
-    stop('invalid success(should be a integer)')
+    stop('invalid success: should be a integer')
   }
   if (prod(success >= 0) != 1) {
-    stop('invalid success(should be non-negative)')
+    stop('invalid success: should be non-negative')
   }
   if(prod(success <= trials) != 1) {
     stop('success cannot be greater than trials')

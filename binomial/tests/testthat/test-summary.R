@@ -32,9 +32,9 @@ test_that("function aux_mode returns correct results", {
 
   test_that("function aux_skewness returns correct results", {
 
-    expect_equal(aux_skewness(10, 0.3),
+    expect_equal(round(aux_skewness(10, 0.3), 3),
                  0.276)
-    expect_equal(aux_skewness(5, 0.3),
+    expect_equal(round(aux_skewness(5, 0.3), 3),
                  0.39)
     expect_equal(aux_skewness(10, 0.5),
                  0)
@@ -42,10 +42,10 @@ test_that("function aux_mode returns correct results", {
 
   test_that("private function aux_kurtosis produces correct results", {
 
-    expect_equal(aux_kurtosis(10, 0.3),
+    expect_equal(round(aux_kurtosis(10, 0.3), 3),
                  -0.124)
-    expect_equal(aux_kurtosis(5, 0.3),
+    expect_equal(round(aux_kurtosis(5, 0.3), 3),
                  -0.248)
-    expect_equal(aux_kurtosis(10, 0.5),
+    expect_equal(round(aux_kurtosis(10, 0.5), 3),
                  -0.2)
 })

@@ -20,7 +20,7 @@ test_that("check_success fails with invalid args", {
 
   expect_true(check_success(3, 10))
   expect_error(check_success(-1, 10),
-               "invalid success(should be non-negative)")
+               "invalid success: should be non-negative")
   expect_error(check_success(6, 5),
                "success cannot be greater than trials")
 })
